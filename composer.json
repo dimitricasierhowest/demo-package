@@ -1,0 +1,22 @@
+{
+    "name": "dimitricasierhowest/demo-package",
+    "authors": [
+        {
+            "name": "Dimiri Casier",
+            "email": "dimitri.casier@howest.be"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Dimitricasierhowest\\DemoPackage\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dimitricasierhowest\\DemoPackage\\DemoPackageServiceProvider"
+            ]
+        }
+    }
+}
